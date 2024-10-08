@@ -109,7 +109,9 @@ const App = () => {
               <span className={`${actor.className} text-[#F0F8FD] text-[21px]`}>
                 Telegram
               </span>
-              <span className="text-[#FFB829]">@🐳</span>
+              <span className="text-[#FFB829]">
+                <a href="#">@🐳</a>
+              </span>
             </div>
           </div>
           <div className="flex gap-6">
@@ -118,7 +120,9 @@ const App = () => {
               <span className={`${actor.className} text-[#F0F8FD] text-[21px]`}>
                 Mail
               </span>
-              <span className="text-[#FFB829]">@gmail.com</span>
+              <span className="text-[#FFB829]">
+                <a href="#">@gmail.com</a>
+              </span>
             </div>
           </div>
           <div className="flex gap-6">
@@ -127,7 +131,9 @@ const App = () => {
               <span className={`${actor.className} text-[#F0F8FD] text-[21px]`}>
                 GitHub
               </span>
-              <span className="text-[#FFB829]">@🤖</span>
+              <span className="text-[#FFB829]">
+                <a href="#">@🤖</a>
+              </span>
             </div>
           </div>
         </div>
